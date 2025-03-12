@@ -15,7 +15,7 @@ export default function Header() {
     <header className="header">
       <div className="header-container">
         <div className="logo-container">
-          <a href="/" className="logo">
+          <a href="" className="logo">
             Soluciones Chapinas
           </a>
         </div>

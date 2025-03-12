@@ -2,7 +2,7 @@ import { CheckCircle } from "lucide-react";
 import "./styles/AboutUs.css";
 
 export default function AboutUs() {
-  const aboutUs = "/components/aboutUs.webp";
+  const aboutUs = "/landing-page/components/aboutUs.webp";
 
   return (
     <section id="about" className="about-section">

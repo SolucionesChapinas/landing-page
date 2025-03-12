@@ -1,16 +1,12 @@
-# React + Vite
+# Soluciones Chapinas GT
+Somos una empresa en crecimiento dedicada a la creación de páginas web y software accesible para todos. Nuestro objetivo es impulsar la transformación digital en Guatemala, ofreciendo soluciones asequibles y efectivas para que negocios, emprendedores y profesionales tengan presencia en internet.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Creemos que la tecnología debe ser una herramienta al alcance de todos, por eso diseñamos plataformas intuitivas, personalizables y funcionales que permitan a nuestros clientes destacar en el mundo digital. Más que vender páginas web, queremos fomentar una cultura de digitalización que impulse el crecimiento económico y la innovación en nuestro país.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-
+# Primeros pasos
+1. npm install
+2. npm run dev
 
 # Instalaciones extras
 1. npm install react-router-dom
@@ -19,4 +15,4 @@ If you are developing a production application, we recommend using TypeScript an
 # Configuración para publicar en Github Pages
 1. npm install gh-pages --save-dev
 2. Configurar vite.config.js
-3. Agregar script "deploy"
+3. Agregar script "deploy" 
