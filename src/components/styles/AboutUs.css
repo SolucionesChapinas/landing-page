@@ -1,0 +1,152 @@
+.about-section {
+  width: 100%;
+  padding: 3rem 0;
+}
+
+.section-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+.section-badge {
+  display: inline-block;
+  border-radius: var(--border-radius);
+  background-color: rgba(59, 130, 246, 0.1);
+  padding: 0.25rem 0.75rem;
+  font-size: 0.875rem;
+  color: var(--primary-color);
+}
+
+.section-title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+}
+
+.section-description {
+  max-width: 900px;
+  color: var(--muted-foreground);
+}
+
+.about-grid {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 3rem 0;
+}
+
+.about-features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.feature-list {
+  display: grid;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.feature-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.feature-icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  color: var(--primary-color);
+  flex-shrink: 0;
+  margin-top: 0.25rem;
+}
+
+.feature-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.feature-desc {
+  color: var(--muted-foreground);
+}
+
+.about-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-image {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-color: var(--muted-color);
+}
+
+.about-image-overlay {
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(to bottom right, rgba(59, 130, 246, 0.2), rgba(59, 130, 246, 0.05));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-image-content {
+  text-align: center;
+  padding: 1.5rem;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 8px;
+}
+
+.about-image-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.about-image-subtitle {
+  color: #ddd;
+}
+
+@media (min-width: 768px) {
+  .about-section {
+    padding: 6rem 0;
+  }
+
+  .section-title {
+    font-size: 3rem;
+  }
+
+  .section-description {
+    font-size: 1.25rem;
+    line-height: 1.75;
+  }
+
+  .about-image {
+    height: 450px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .about-section {
+    padding: 8rem 0;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+  }
+}
