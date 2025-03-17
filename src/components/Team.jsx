@@ -6,7 +6,7 @@ export default function Team() {
       id: 1,
       name: "Ing. Gerson Pérez",
       role: "Cofundador de SCGT",
-      image: "/landing-page/thomas.JPG?height=300&width=300",
+      image: "/thomas.JPG?height=300&width=300",
       description:
         "Especialista en arquitectura de software con más de 10 años de experiencia en desarrollo de soluciones empresariales.",
       skills: ["Desarrollo Web", "Arquitectura de Software", "Gestión de Proyectos"],
@@ -15,7 +15,7 @@ export default function Team() {
       id: 2,
       name: "Ing. Thomas Bollen",
       role: "Cofundador de SCGT",
-      image: "/landing-page/team/Thomas.JPG?height=300&width=300",
+      image: "/team/Thomas.JPG?height=300&width=300",
       description:
         "Experto en tecnologías web modernas y desarrollo de aplicaciones móviles con enfoque en experiencia de usuario.",
       skills: ["React", "Node.js", "UX/UI"],
@@ -24,7 +24,7 @@ export default function Team() {
       id: 3,
       name: "Ing. Alexander Bollen",
       role: "Cofundador de SCGT",
-      image: "/landing-page/placeholder.svg?height=300&width=300",
+      image: "/placeholder.svg?height=300&width=300",
       description:
         "Administrador de bases de datos con amplia experiencia en optimización y seguridad de información empresarial.",
       skills: ["SQL", "MongoDB", "Seguridad de Datos"],
@@ -33,7 +33,7 @@ export default function Team() {
       id: 4,
       name: "Ing. José Az",
       role: "Cofundador de SCGT",
-      image: "/landing-page/team/jose-az.jpg?height=300&width=300",
+      image: "/team/jose-az.jpg?height=300&width=300",
       description:
         "Especialista en implementación de infraestructura y automatización de procesos de desarrollo y despliegue.",
       skills: ["AWS", "Docker", "CI/CD"],
@@ -42,7 +42,7 @@ export default function Team() {
       id: 5,
       name: "Arq. Adbeel Villegas",
       role: "Diseñador visual",
-      image: "/landing-page/team/adbeel.jpg?height=300&width=300",
+      image: "/team/adbeel.jpg?height=300&width=300",
       description:
         "Especialista en implementación de infraestructura y automatización de procesos de desarrollo y despliegue.",
       skills: ["AWS", "Docker", "CI/CD"],

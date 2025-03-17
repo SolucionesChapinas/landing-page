@@ -8,27 +8,30 @@ import "./styles/TemplatesProjects.css"
 const templates = [
   {
     id: 1,
-    title: "Tienda Online",
-    category: "ecommerce",
-    image: "/placeholder.svg?height=300&width=400",
-    description: "Plantilla ideal para tiendas en línea con catálogo de productos.",
+    title: "Abogados",
+    category: "servicios",
+    image: "/images/Plantillas/abogados-t-1.png?height=300&width=400",
+    description: "Plantilla ideal para bufete de abogados y servicios legales.",
     price: "Q1,500",
+    link: "https://solucioneschapinas.github.io/abogados-t-1/",
   },
   {
     id: 2,
-    title: "Restaurante Gourmet",
+    title: "Restaurante",
     category: "restaurante",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/images/Plantillas/restaurante-t-1.png?height=300&width=400",
     description: "Diseño elegante para restaurantes con menú digital.",
-    price: "Q1,200",
+    price: "Q2,500",
+    link: "https://solucioneschapinas.github.io/restaurante-t-1/"
   },
   {
     id: 3,
     title: "Consultorio Médico",
     category: "salud",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/images/Plantillas/clinica-t-1.png?height=300&width=400",
     description: "Plantilla profesional para médicos y clínicas.",
     price: "Q1,300",
+    link: "https://solucioneschapinas.github.io/clinica-medica-t-1/"
   },
   {
     id: 4,
@@ -221,7 +224,12 @@ export default function TemplatesProjects() {
                             <p className="card-price">{template.price}</p>
                           </div>
                           <div className="card-footer">
-                            <button className="button outline sm">Ver Demo</button>
+                            <button
+                              className="button outline sm"
+                              onClick={() => window.open(template.link, '_blank')}
+                            >
+                              Ver Demo
+                            </button>
                             <button className="button default sm">Más Información</button>
                           </div>
                         </div>

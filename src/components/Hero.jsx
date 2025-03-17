@@ -2,7 +2,7 @@ import { ArrowRight } from "lucide-react";
 import "./styles/Hero.css";
 
 export default function Hero() {
-  const landingpage = "/landing-page/components/landingpage.webp";
+  const landingpage = "/components/landingpage.webp";
 
   return (
     <section className="hero">

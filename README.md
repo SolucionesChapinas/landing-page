@@ -16,3 +16,8 @@ Creemos que la tecnología debe ser una herramienta al alcance de todos, por eso
 1. npm install gh-pages --save-dev
 2. Configurar vite.config.js
 3. Agregar script "deploy" 
+
+# Configuraciones para dominio
+1. Agregar un archivo CNAME en public
+2. Cambiar la opción "base" en la configuración de vite.config.js a "/"
+3. Verficar rutas de vistas y componentes (porque puede estar configurado con el repo)
