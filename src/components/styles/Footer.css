@@ -57,6 +57,7 @@
 
 .footer-nav-link:hover {
   color: var(--primary-color);
+  cursor: default;
 }
 
 .footer-contact-list {

@@ -56,7 +56,6 @@ export default function AboutUs() {
               <div className="about-image-overlay">
                 <div className="about-image-content">
                   <h3 className="about-image-title">Impulsando el Crecimiento Digital</h3>
-                  <p className="about-image-subtitle">Desde 2025</p>
                 </div>
               </div>
             </div>

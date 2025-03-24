@@ -1,4 +1,4 @@
-import { Code, LayoutTemplate, Lightbulb, LineChart, Smartphone, Globe } from "lucide-react"
+import { Code, Palette, Lightbulb, LineChart, Smartphone, Globe, Store } from "lucide-react"
 import "./styles/Services.css"
 
 export default function Services() {
@@ -6,35 +6,40 @@ export default function Services() {
     {
       icon: <Lightbulb className="service-icon" />,
       title: "Asesorías y Consultorías",
-      description: "Orientación estratégica para implementar soluciones tecnológicas que impulsen su negocio.",
-    },
-    {
-      icon: <LayoutTemplate className="service-icon" />,
-      title: "Páginas Web con Plantillas",
-      description: "Sitios web profesionales y económicos utilizando plantillas personalizadas para su negocio.",
+      description: "Orientación estratégica para implementar soluciones tecnológicas que impulsen tu negocio.",
     },
     {
       icon: <Globe className="service-icon" />,
-      title: "Páginas Web a Medida",
-      description: "Desarrollo de sitios web completamente personalizados según sus necesidades específicas.",
+      title: "Desarrollo de Páginas Web",
+      description: "Diseño y desarrollo de páginas web, desde plantillas hasta soluciones personalizadas, incluyendo catálogos interactivos.",
     },
     {
-      icon: <Code className="service-icon" />,
-      title: "Software a Medida",
-      description: "Aplicaciones y sistemas desarrollados específicamente para resolver sus desafíos empresariales.",
+      icon: <Palette className="service-icon" />,
+      title: "Diseño y Branding",
+      description: "Diseño, renovación y digitalización de logotipos, identidad visual y material publicitario.",
     },
     {
       icon: <Smartphone className="service-icon" />,
-      title: "Catálogos Web",
-      description: "Exhiba sus productos en línea con catálogos web interactivos y fáciles de actualizar.",
+      title: "Gestión de Redes Sociales",
+      description: "Administración de perfiles, creación de contenido y campañas publicitarias para aumentar la visibilidad de tu marca.",
+    },
+    {
+      icon: <Store className="service-icon" />,
+      title: "Comercio en Línea",
+      description: "Creamos tiendas en línea personalizadas y optimizadas para impulsar tu negocio y mejorar tu presencia digital.",
+    },
+    {
+      icon: <Code className="service-icon" />,
+      title: "Desarrollo de Software",
+      description: "Aplicaciones y sistemas diseñados para optimizar procesos y mejorar la eficiencia de tu negocio.",
     },
     {
       icon: <LineChart className="service-icon" />,
       title: "Mi Sitio GT",
-      description: "Nuestra solución integral para negocios guatemaltecos que buscan establecer presencia digital.",
-    },
-  ]
-
+      description: "Nuestro producto estrella que ofrece ser una solución digital para negocios guatemaltecos que buscan presencia en línea.",
+    }
+  ];
+  
   return (
     <section id="services" className="services-section">
       <div className="container">
@@ -58,6 +63,5 @@ export default function Services() {
         </div>
       </div>
     </section>
-  )
-}
-
+  );
+};

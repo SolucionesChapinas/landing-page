@@ -57,7 +57,7 @@ export default function Team() {
           <h2 className="section-title">Ingenieros Expertos</h2>
           <p className="section-description">
             Contamos con un equipo de profesionales altamente calificados, comprometidos con ofrecer soluciones
-            tecnológicas innovadoras y de calidad para empresas guatemaltecas.
+            tecnológicas innovadoras y de calidad
           </p>
         </div>
 

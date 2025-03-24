@@ -11,6 +11,7 @@ Creemos que la tecnología debe ser una herramienta al alcance de todos, por eso
 # Instalaciones extras
 1. npm install react-router-dom
 2. npm install lucide-react clsx @radix-ui/react-slot tailwind-merge class-variance-authority @radix-ui/react-tabs @radix-ui/react-select
+3. npm install rc-slider
 
 # Configuración para publicar en Github Pages
 1. npm install gh-pages --save-dev

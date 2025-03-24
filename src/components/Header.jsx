@@ -11,6 +11,13 @@ export default function Header() {
     setIsMenuOpen(!isMenuOpen)
   };
 
+  const scrollToContact = () => {
+    const contactSection = document.getElementById("precios");
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <header className="header">
       <div className="header-container">
@@ -31,7 +38,7 @@ export default function Header() {
           <a href="#team" className="nav-link">
             Equipo
           </a>
-          <button className="button">Cotizar Ahora</button>
+          <button onClick={scrollToContact} className="button">Cotizar Ahora</button>
         </nav>
 
         {/* Mobile Menu Button */}

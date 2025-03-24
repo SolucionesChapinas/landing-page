@@ -133,13 +133,12 @@
 
 .button.outline {
   background-color: transparent;
-  border: 1px solid var(--input-color);
+  border: 2.5px solid var(--input-color);
   color: var(--foreground-color);
 }
 
 .button.outline:hover {
-  background-color: var(--accent-color);
-  color: var(--accent-foreground);
+  background-color: var(--input-color);
 }
 
 .icon {

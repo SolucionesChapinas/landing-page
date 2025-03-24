@@ -14,11 +14,10 @@ import "./styles/Contact.css"
 export default function Contact() {
   // Información de contacto
   const contactInfo = {
-    phone: "+502 2222-3333",
-    whatsapp: "+502 2222-3333",
+    phone: "+502 5159-3189",
+    whatsapp: "+502 5159-3189",
     email: "solucioneschapinasgt@gmail.com",
-    address: "Quetzaltenango, Guatemala",
-    hours: "Lunes a Viernes: 8:00 AM - 5:00 PM | Sábado: 9:00 AM - 1:00 PM",
+    address: "Quetzaltenango, Guatemala"
   };
 
   // Redes sociales
@@ -56,14 +55,13 @@ export default function Contact() {
   ];
 
   return (
-    <section id="contact" className="contact-section">
+    <section id="contacto" className="contact-section">
       <div className="container">
         <div className="section-header">
           <div className="section-badge">Contáctanos</div>
           <h2 className="section-title">¿Listo para impulsar tu negocio?</h2>
           <p className="section-description">
-            Estamos aquí para ayudarte. Contáctanos hoy mismo para una consulta gratuita sobre cómo podemos transformar
-            tu presencia digital.
+            Estamos aquí para ayudarte. Contáctanos hoy y descubre cómo mejorar tu presencia digital.
           </p>
         </div>
 
@@ -71,8 +69,9 @@ export default function Contact() {
           <div className="contact-info-card">
             <div className="card-header">
               <h3 className="card-title">Información de Contacto</h3>
-              <p className="card-description">Encuentra distintas formas de contactarnos.</p>
+              <p className="card-description">Encuentra distintas formas de contactarnos</p>
             </div>
+
             <div className="card-content">
               <div className="info-item">
                 <a href={`tel:${contactInfo.phone.replace(/\D/g, "")}`} className="info-link">
@@ -106,7 +105,7 @@ export default function Contact() {
                   <p className="info-text">
                     Lunes a Viernes: 8:00 AM - 5:00 PM
                     <br />
-                    Sábado: 9:00 AM - 1:00 PM
+                    Sábado: 9:00 AM - 12:00 PM
                   </p>
                 </div>
               </div>
@@ -116,7 +115,7 @@ export default function Contact() {
           <div className="social-media-card">
             <div className="card-header">
               <h3 className="card-title">Redes Sociales</h3>
-              <p className="card-description">Síguenos en nuestras redes sociales.</p>
+              <p className="card-description">Síguenos en nuestras redes sociales</p>
             </div>
             <div className="card-content">
               <ul className="social-list">

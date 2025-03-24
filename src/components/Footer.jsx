@@ -16,7 +16,7 @@ export default function Footer() {
                 <Facebook className="social-icon" />
                 <span className="sr-only">Facebook</span>
               </a>
-              <a href="#" className="social-link">
+              <a href="https://instagram.com/solucioneschapinas.gt" target="_blank" className="social-link">
                 <Instagram className="social-icon" />
                 <span className="sr-only">Instagram</span>
               </a>
@@ -30,6 +30,7 @@ export default function Footer() {
               </a>
             </div>
           </div>
+          
           <div className="footer-links">
             <h3 className="footer-title">Enlaces Rápidos</h3>
             <ul className="footer-nav">
@@ -50,36 +51,38 @@ export default function Footer() {
               </li>
             </ul>
           </div>
+
           <div className="footer-services">
             <h3 className="footer-title">Servicios</h3>
             <ul className="footer-nav">
               <li>
-                <a href="#" className="footer-nav-link">
+                <a className="footer-nav-link">
                   Asesorías y consultas
                 </a>
               </li>
               <li>
-                <a href="#" className="footer-nav-link">
+                <a className="footer-nav-link">
                   Páginas web
                 </a>
               </li>
               <li>
-                <a href="#" className="footer-nav-link">
+                <a className="footer-nav-link">
                   Software a la medida
                 </a>
               </li>
               <li>
-                <a href="#" className="footer-nav-link">
+                <a className="footer-nav-link">
                   Catálogos web
                 </a>
               </li>
               <li>
-                <a href="#" className="footer-nav-link">
+                <a className="footer-nav-link">
                   Mi Sitio GT
                 </a>
               </li>
             </ul>
           </div>
+
           <div className="footer-contact">
             <h3 className="footer-title">Contacto</h3>
             <ul className="footer-contact-list">
@@ -93,7 +96,7 @@ export default function Footer() {
               </li>
               <li className="footer-contact-item">
                 <Phone className="footer-contact-icon" />
-                <span className="footer-contact-text">+502 2222-3333</span>
+                <span className="footer-contact-text">+502 5159-3189</span>
               </li>
             </ul>
           </div>
